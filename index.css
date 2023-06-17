@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    background-color: aquamarine;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    text-decoration: none;
+    width: 15%;
+    background-color: rgb(70, 153, 221);
+    padding: 10px 20px 0px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
+
+}
+.header {
+    background-color: rgb(245, 245, 245);
+    min-height: 50px;
+
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+    height: 600px;
+    
+}
+.footer {
+    background-color: rgb(245, 159, 46);
+    color: rgb(255, 255, 255);
+    height: 150px;   
+    
+}
+
+nav {
+    line-height: 5;
+}
+
+.cachorro{
+    position: relative;
+    top: 460px;
+}
+
+.k1 {
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 3px ;
+}
+
+.k1:hover{
+    background-color: rgb(230, 130, 0);
+}
+
+.k2{
+    margin: 0px;
+    text-align:center;
+    position: relative;
+    left:10px;
+    top: 50px;
+    
+}
+
+.k3{
+    margin: 0px;
+    text-align:right ;
+    position: relative;
+    right: 50px;
+    top: -30px;
+    
+}
+.k4{
+    position: relative;
+    top: -80px;
+    right: -50px;
+    margin: 0px;
+}
+
+table{
+    border: solid 1px black;
+    background-color: white;
+    position: relative;
+    left: 230px;
+    top: -175px;
+}
+
+table thead{
+    background-color: rgb(70, 153, 221);
+    color: white;
+    text-align: justify;
+}
+
+p{
+    text-indent: 30px;
+    
+}
+table tbody tr:nth-child(odd) td {
+    background-color: rgb(200, 233, 243);
+}
+
+table tbody tr:hover td{
+    background-color: rgb(23, 145, 194);
+    cursor: pointer;
+}
+
+form{
+    height: 10px;
+    position: relative;
+    top: -310px;
+    margin-left: 15px;
+    text-align: justify;
+    
+
+
+    
+}
+iframe{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    
+}
+.k5{
+    position: relative;
+    top: -320px;
+    left: 9px;
+}
+input{
+    width: 350px;
+    display: grid; 
+    padding: 5px;
+}
